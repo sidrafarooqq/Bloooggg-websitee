@@ -17,7 +17,7 @@ const ProductDetailPage = ({ params }: { params: Promise<{ id: any }> })=> {
     }
 
     return (
-        <div className="bg-zinc-200 min-h-screen">
+        <div className="bg-zinc-300 min-h-screen">
             <h1 className="text-5xl font-bold text-fuchsia-700 mx-5 py-6">{blog.name}</h1>
             <Image src={blog.image} alt={blog.name} width={500} height={500} className="w-full h-80 object-cover my-4" />
             <p className="text-lg">{blog.description}</p>
